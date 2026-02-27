@@ -1,19 +1,23 @@
-Automated Python Docstring Generator using Gemini AI
-Overview
+:
 
-The Automated Python Docstring Generator is an AI-powered tool that automatically generates professional, standardized docstrings for Python functions and classes using Google's Gemini AI. The system analyzes Python source code using Abstract Syntax Tree (AST) parsing and produces high-quality documentation following PEP 257 conventions.
+🤖 Automated Python Docstring Generator using Gemini AI
+📌 Overview
 
-The application also validates docstring quality and provides documentation coverage metrics through an interactive Streamlit web interface. This tool helps developers improve code readability, maintainability, and documentation efficiency.
+The Automated Python Docstring Generator is an AI-powered documentation tool that automatically generates professional and standardized docstrings for Python functions and classes using Google's Gemini AI.
 
-Features
+The system analyzes Python source code using Abstract Syntax Tree (AST) parsing and generates documentation that follows PEP 257 standards. It also validates docstring quality and provides coverage metrics through an interactive Streamlit dashboard.
 
-Automatic docstring generation using Gemini AI
+This tool helps improve code readability, maintainability, and developer productivity.
 
-Supports functions, classes, and async functions
+✨ Features
 
-AST-based static code analysis
+🤖 AI-powered docstring generation using Gemini AI
 
-Multiple docstring styles:
+📂 Supports functions, classes, and async functions
+
+🔍 AST-based code analysis
+
+📝 Multiple docstring formats:
 
 Google style
 
@@ -21,92 +25,92 @@ NumPy style
 
 reStructuredText (reST) style
 
-Automatic docstring validation
+✅ Automatic docstring validation
 
-Documentation coverage calculation
+📊 Documentation coverage analysis
 
-Interactive Streamlit dashboard
+🌐 Interactive Streamlit web interface
 
-Real-time validation and visualization
+⚡ Real-time docstring generation and validation
 
-Works with any Python source file
+🧩 Works with any Python source file
 
-How It Works
+⚙️ How It Works
 
 The system follows this workflow:
 
-Upload Python source file
+📤 Upload Python file
 
-Parse code using AST parser
+🔎 Parse code using AST
 
-Extract functions and classes
+📌 Extract functions and classes
 
-Send code to Gemini AI
+🤖 Send code to Gemini AI
 
-Generate professional docstrings
+📝 Generate professional docstrings
 
-Validate docstrings using PEP 257 standards
+✅ Validate docstring quality
 
-Display results and documentation metrics
+📊 Display coverage and validation results
 
-Technologies Used
+🛠️ Technologies Used
 
-Python
+🐍 Python
 
-Streamlit
+🌐 Streamlit
 
-Google Gemini AI API
+🤖 Google Gemini AI API
 
-Abstract Syntax Tree (AST)
+🌳 Abstract Syntax Tree (AST)
 
-Pandas
+📊 Pandas
 
-Google Generative AI SDK
+🔧 Google Generative AI SDK
 
-Installation
-Step 1: Clone the repository
+📥 Installation
+1️⃣ Clone the repository
 git clone https://github.com/SujanaArikati/Docstring_Generator.git
 cd Docstring_Generator
-Step 2: Install dependencies
+2️⃣ Install dependencies
 pip install streamlit pandas google-generativeai
-Step 3: Configure Gemini API Key
+3️⃣ Configure Gemini API Key
 
-Get your API key from:
+Get API key from:
 
 https://aistudio.google.com/app/apikey
 
-Add it in the code:
+Add your API key:
 
 genai.configure(api_key="YOUR_API_KEY")
-Running the Application
+▶️ Running the Application
 
-Start the Streamlit server:
+Start Streamlit server:
 
 streamlit run streamlit_app.py
 
-Open in browser:
+Open browser:
 
 http://localhost:8501
-Usage
+🧑‍💻 Usage
 
-Upload a Python (.py) file
+📂 Upload Python (.py) file
 
-Select preferred docstring style
+🎨 Select docstring style
 
-View existing and generated docstrings
+🤖 View AI-generated docstrings
 
-Run validation to check documentation quality
+✅ Run validation
 
-View coverage percentage and validation results
+📊 View documentation coverage
 
-Example
+📌 Example
 
 Input:
 
 def add(a, b):
     return a + b
 
-Generated output:
+Output:
 
 """
 Adds two numbers.
@@ -118,48 +122,48 @@ Args:
 Returns:
     int: Sum of the numbers.
 """
-Project Structure
+📁 Project Structure
 Docstring_Generator/
 │
 ├── streamlit_app.py
 ├── README.md
 └── requirements.txt
-Applications
+🎯 Applications
 
-Software documentation automation
+📚 Automated documentation generation
 
-Code quality improvement
+🧑‍💻 Software development workflows
 
-Development workflow enhancement
+🧪 Code quality improvement
 
-Educational and learning tools
+🎓 Educational and learning tools
 
-Automated documentation generation
+📦 Open-source project documentation
 
-Advantages
+🚀 Advantages
 
-Reduces manual documentation effort
+⏱️ Saves documentation time
 
-Improves code readability and maintainability
+📖 Improves code readability
 
-Ensures consistent documentation standards
+📏 Ensures standard documentation format
 
-Fast and efficient AI-powered generation
+🤖 Uses advanced AI generation
 
-Supports real-world Python projects
+🧩 Supports real-world Python code
 
-Future Improvements
+🔮 Future Improvements
 
-Automatic insertion of generated docstrings into source code
+✏️ Auto insert docstrings into code
 
-Support for multiple programming languages
+🌍 Multi-language support
 
-Batch file processing
+📂 Batch file processing
 
-Export updated files
+💾 Export updated files
 
-IDE integration support
+🔌 IDE integration
 
-License
+📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
