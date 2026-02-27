@@ -1,6 +1,7 @@
 🤖 Automated Python Docstring Generator
 
-📌 Overview3
+📌 Overview
+
 The Automated Python Docstring Generator is an AI-powered documentation tool that automatically generates professional and standardized docstrings for Python functions and classes using Google's Gemini AI.
 
 The system analyzes Python source code using Abstract Syntax Tree (AST) parsing and generates documentation that follows PEP 257 standards. It also validates docstring quality and provides coverage metrics through an interactive Streamlit dashboard.
